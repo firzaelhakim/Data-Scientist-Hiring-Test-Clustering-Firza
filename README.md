@@ -1,7 +1,7 @@
 # NoLimit Indonesia — Data Scientist Hiring Test (Clustering) — Firza
 
-This repository implements **text clustering** using **Hugging Face sentence-transformers** embeddings
-and **KMeans** (with optional FAISS for ANN search). It satisfies the NoLimit test requirements.
+This repository implements text clustering using Hugging Face sentence-transformers embeddings
+and KMeans. It satisfies the NoLimit test requirements.
 
 ## ✅ Task
 **B. Clustering — topic discovery / grouping texts using embeddings.**
@@ -19,7 +19,7 @@ See `flowchart.png` for the end-to-end diagram.
 ## 📦 Files
 - `clustering.py` — runnable script (CLI).
 - `clustering.ipynb` — notebook version.
-- `sample_data.csv` — small sample dataset for local verification.
+- `indonesia_topics_2025.csv` — small sample dataset for local verification.
 - `flowchart.png` — mandatory flowchart of the pipeline.
 - `requirements.txt` — dependencies.
 - `app.py` — optional Streamlit app (bonus).
@@ -41,7 +41,7 @@ python clustering.py --data sample_data.csv --k 6 --model paraphrase-multilingua
 # Optional: try a different model, e.g. intfloat/multilingual-e5-base
 python clustering.py --data sample_data.csv --k 6 --model intfloat/multilingual-e5-base
 
-# 4) (Bonus) Run Streamlit app
+# 4) Run Streamlit app
 streamlit run app.py
 ```
 
@@ -65,11 +65,8 @@ Open `clustering.ipynb` and run all cells to reproduce the results.
 - Human inspection of top terms & sample texts per cluster.
 
 ## 🗂️ Dataset
-- `sample_data.csv` provided for quick verification (authored by repository owner).
-- You may replace with any public/open dataset. Clearly cite the source and license in this README if you do.
-  - Examples: 20 Newsgroups, BBC News, Indonesian news corpora, etc.
-
-**License of `sample_data.csv`: CC BY 4.0** (© 2025 firza; attribution required).
+- `indonesia_topics_2025.csv` provided for quick verification (authored by repository owner).
+**License of `indonesia_topics_2025.csv`: CC BY 4.0** (© 2025 firza; attribution required).
 
 ## 🧩 Flowchart
 ![flowchart](flowchart.png)
