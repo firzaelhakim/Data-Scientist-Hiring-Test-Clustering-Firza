@@ -69,7 +69,7 @@ Open `clustering.ipynb` and run all cells to reproduce the results.
 **License of `indonesia_topics_2025.csv`: CC BY 4.0** (© 2025 firza; attribution required).
 
 ## 🧩 Flowchart
-![flowchart](flowchart.png)
+![flowchart](flowchartmodel.png)
 
 ## 🔒 License
 - Code: MIT
